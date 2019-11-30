@@ -1,4 +1,4 @@
-myLast :: Ord a => [a] -> a
+myLast :: [a] -> a
 
 myLast [] = error "empty list"
 myLast (x : []) = x
